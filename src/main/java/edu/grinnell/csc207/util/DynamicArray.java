@@ -3,7 +3,7 @@ package edu.grinnell.csc207.util;
 /**
  * Dynamic arrays of values.
  *
- * @param T
+ * @param <T>
  *   The type of value stored in the dynamic array.
  */
 public interface DynamicArray<T> {
@@ -12,7 +12,7 @@ public interface DynamicArray<T> {
    *
    * @param i
    *   The index into which we store the element.
-   * @param str
+   * @param val
    *   The value to store.
    *
    * @pre i >= 0

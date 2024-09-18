@@ -2,6 +2,9 @@ package edu.grinnell.csc207.util;
 
 /**
  * A simple predicate.
+ *
+ * @param <T>
+ *   The type of values the predicate will be applied to.
  */
 public interface Predicate<T> {
   /**

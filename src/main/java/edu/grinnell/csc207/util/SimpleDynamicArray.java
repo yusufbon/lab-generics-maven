@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * A very simple implementation of dynamic arrays.
  *
- * @param T
+ * @param <T>
  *   The type of value stored in the dynamic array.
  */
 public class SimpleDynamicArray<T> implements DynamicArray<T> {
@@ -40,7 +40,7 @@ public class SimpleDynamicArray<T> implements DynamicArray<T> {
    *
    * @param i
    *   The index into which we store the element.
-   * @param str
+   * @param val
    *   The value to store.
    *
    * @pre i >= 0

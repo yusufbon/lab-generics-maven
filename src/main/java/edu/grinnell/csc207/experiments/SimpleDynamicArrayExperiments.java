@@ -31,10 +31,16 @@ public class SimpleDynamicArrayExperiments {
   // | Main |
   // +------+
 
+  /**
+   * Run the experiments.
+   *
+   * @param args
+   *   Command-line arguments (ignored).
+   */
   public static void main(String[] args) {
     PrintWriter pen = new PrintWriter(System.out, true);
-    DynamicArray<BigInteger> numbers = 
-      new SimpleDynamicArray<BigInteger>();
+    DynamicArray<BigInteger> numbers =
+        new SimpleDynamicArray<BigInteger>();
 
     // Set some values
     for (int i = 0; i < 10; i++) {

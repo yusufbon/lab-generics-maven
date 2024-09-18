@@ -7,11 +7,13 @@ public class SearchUtils {
   /**
    * Find the first value for which a predicate holds.
    *
+   * @param <T>
+   *   The type of values we are searching.
    * @param vals
    *   The array we want to search.
    * @param pred
    *   A predicate to check over each value.
-   * @return the first value in vals for which the predicate holds. 
+   * @return the first value in vals for which the predicate holds.
    *   Return null if nothing is found.
    */
   public static <T> T search(T[] vals, Predicate<T> pred) {
