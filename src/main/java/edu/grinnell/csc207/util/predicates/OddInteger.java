@@ -3,9 +3,9 @@ package edu.grinnell.csc207.util.predicates;
 import edu.grinnell.csc207.util.Predicate;
 
 /**
- * Predicates for small strings.  Uses a form of the Singleton pattern.
- * Clients cannot create SmallString objects; they must reference
- * SmallString.PRED.
+ * Predicates for odd integers.  Uses a form of the Singleton pattern.
+ * Clients cannot create OddInteger objects; they must reference
+ * OddInteger.PRED.
  *
  * @author Samuel A. Rebelsky
  */
