@@ -12,7 +12,7 @@ You can run experiments on predicates and searching with the class
 Authors:
 
 * Samuel A. Rebelsky (original code)
-* Your Name Here (updates)
+* Bonsen Yusuf
 * Your Name Here (updates)
 
 The code may be found at <https://github.com/USERNAME/lab-generics-maven>.
